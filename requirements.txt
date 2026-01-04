@@ -1,0 +1,10 @@
+pandas
+numpy
+scikit-learn
+yfinance
+tensorflow>=2.10
+streamlit
+langchain
+google-search-results
+requests
+plotly
