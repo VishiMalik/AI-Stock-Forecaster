@@ -8,7 +8,7 @@ def fetch_history(ticker: str, period = "3y", interval = "1d"):
   df.dropna(inplace = True)
   return df
 
-if __name = "__main__":
+if __name__ = "__main__":
    df = fetch_history("AAPL", period = "5y")
    print(df.tail())
 
